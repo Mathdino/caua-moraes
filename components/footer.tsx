@@ -136,7 +136,12 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2 text-gray-400 hover:text-brand-green transition-colors">
                 <Mail className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                <span className="text-sm">cauahenrique.m21@gmail.com</span>
+                <a
+                  href="mailto:cauahenrique.m21@gmail.com"
+                  className="text-sm hover:underline underline-offset-4"
+                >
+                  cauahenrique.m21@gmail.com
+                </a>
               </li>
             </ul>
           </div>

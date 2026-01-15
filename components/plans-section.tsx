@@ -13,7 +13,7 @@ const plans = [
   {
     name: "Básico",
     price: "R$ 80",
-    period: "/mês",
+    period: "/semana",
     description: "Ideal para começar",
     features: [
       "1 aula por semana",
@@ -27,7 +27,7 @@ const plans = [
   {
     name: "Intermediário",
     price: "R$ 120",
-    period: "/mês",
+    period: "/semana",
     description: "Mais popular",
     features: [
       "2 aulas por semana",
@@ -42,7 +42,7 @@ const plans = [
   {
     name: "Performance",
     price: "R$ 150",
-    period: "/mês",
+    period: "/semana",
     description: "Máxima evolução",
     features: [
       "3 aulas por semana",
